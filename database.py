@@ -1,5 +1,5 @@
 import os
-
+import streamlit as st
 from deta import Deta
 from dotenv import load_dotenv
 
@@ -9,7 +9,10 @@ DETA_KEY = os.getenv("DETA_KEY")
 #heroku config:set DETA_KEY = c0zmo5mv_twfsQAydJypNKSMY8CAVudZs2fJxL3f9
 
 #Initialize with a project key
-deta = Deta(DETA_KEY)
+#deta = Deta(DETA_KEY)
+
+# Connect to Deta Base with your Project Key
+deta = Deta(st.secrets["deta_key"])
 
 #How to create/connect a database
 db = deta.Base("users_db")
