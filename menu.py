@@ -46,7 +46,7 @@ if selected == "Home":
         # ログインメソッドで入力フォームを配置
     names, authentication_status, username = authenticator.login('Login', 'main')
 
-    img = Image.open('images.jpg')
+    #img = Image.open('images.jpg')
 
     # 返り値、authenticaton_statusの状態で処理を場合分け
     if authentication_status:
