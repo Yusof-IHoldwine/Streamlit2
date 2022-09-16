@@ -97,10 +97,8 @@ python-dotenv==0.21.0
 pytorch-lightning==1.7.5
 pytz==2022.2.1
 pytz-deprecation-shim==0.1.0.post0
-<<<<<<< HEAD
-#pypiwin32==223
-#pywinpty==2.0.6
-=======
+pypiwin32==223
+pywinpty==2.0.6
 pywin32>=227;platform_system == "Windows"
 >>>>>>> origin/main
 PyYAML==6.0
