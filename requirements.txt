@@ -1,7 +1,3 @@
-<<<<<<< HEAD
--f https://download.pytorch.org/whl/torch_stable.html # これを記載する
-=======
->>>>>>> origin/main
 absl-py==1.2.0
 aiohttp==3.8.1
 aiosignal==1.2.0
