@@ -126,15 +126,12 @@ terminado==0.15.0
 tinycss2==1.1.1
 toml==0.10.2
 toolz==0.12.0
-<<<<<<< HEAD
 torch==1.12.1+cpu
 torchmetrics==0.9.3
 torchvision==0.13.1+cpu
-=======
 torch==1.12.1
 torchmetrics==0.9.3
 torchvision==0.13.1
->>>>>>> origin/main
 tornado==6.2
 tqdm==4.64.1
 traitlets==5.3.0
