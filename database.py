@@ -38,9 +38,3 @@ def delete_user(username):
     """Always returns None, even if the key does not exist"""
     return db.delete(username)
 
-#delete_user("test")
-<<<<<<< HEAD
-#update_user("test", updates={"name": "update test"})
-=======
-#update_user("test", updates={"name": "update test"})
->>>>>>> origin/main
