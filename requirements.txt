@@ -100,7 +100,6 @@ pytz-deprecation-shim==0.1.0.post0
 pypiwin32==223
 pywinpty==2.0.6
 pywin32>=227;platform_system == "Windows"
->>>>>>> origin/main
 PyYAML==6.0
 pyzmq==23.2.1
 qtconsole==5.3.1
