@@ -46,11 +46,7 @@ if selected == "Home":
         # ログインメソッドで入力フォームを配置
     names, authentication_status, username = authenticator.login('Login', 'main')
 
-<<<<<<< HEAD
-    img = Image.open('images.jpg')
-=======
-    #img = Image.open('images.jpg')
->>>>>>> origin/main
+
 
     # 返り値、authenticaton_statusの状態で処理を場合分け
     if authentication_status:
@@ -174,8 +170,5 @@ if selected == "Purpose":
     st.title(f"You have selected {selected}")
     st.write("・Google colabで作成した機能の出力")
     st.write("・Streamlitを用いた記述でログイン機能の実装")
-<<<<<<< HEAD
     st.write("・オンライン上に公開")
-=======
-    st.write("・オンライン上に公開")
->>>>>>> origin/main
+
